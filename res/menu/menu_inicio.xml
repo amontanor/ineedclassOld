@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">f
+    <item android:id="@+id/btnParticular" android:title="@string/txtAmateur"></item>
+    <item android:id="@+id/btnAcademia" android:title="@string/txtAcademia"></item>
+    <item android:id="@+id/btnIntercambio" android:title="@string/txtIntercambio"></item>
+    
+
+</menu>

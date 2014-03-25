@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">ineedclass</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="title_activity_busqueda_provincia">BusquedaProvincia</string>
+    <string name="txtBusqueda">Búsqueda</string>
+    <string name="txtProvincia">Provincia...</string>
+    <string name="txtCiudad">Ciudad...</string>
+    <string name="txtSeleProvincia">Selecione Provincia</string>
+    <string name="txtSeleccionaProvincia">Seleccione Provincia</string>
+    <string name="txtSeleccioneCiudad">Seleccione Ciudad</string>
+    <string name="txtSeleccionaCategoria">Seleccione Categoría</string>
+    <string name="txtIdioma">Categoría...</string>
+    <string name="title_activity_listado_profesores">ListadoProfesores</string>
+    <string name="title_activity_registro">Registro</string>
+    <string name="title_activity_datos_profesor">DatosProfesor</string>
+    <string name="txtBusquedaInicio">búsqueda</string>
+    <string name="txtInscribirseInicio">inscribirse</string>
+    <string name="txtSeleccioneSubCategoria">Seleccione SubCategoria</string>
+    <string name="txtSubCategoria">SubCategoria...</string>
+    <string name="titler">iNeedClass</string>
+    <string name="buscar">Buscar</string>
+    <string name="txtAmateur">Particular</string>
+    <string name="txtAcademia">Academia</string>
+    <string name="txtIntercambio">Intercambio</string>
+    <string name="textoCompartir">Aprende, enseña o intercambia tus conocimientos en: https://play.google.com/store/apps/details?id=dotidapp.ineedclass. Compártela!</string>
+    <string name="title_activity_nuevo_buscador">Buscador</string>
+    <string name="title_activity_datos_academia">DatosAcademia</string>
+    <string name="title_activity_datos_intercambio">DatosIntercambio</string>
+
+</resources>

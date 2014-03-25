@@ -1,0 +1,169 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/grey_wash_wall"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context=".BusquedaProvincia" >
+
+    <TextView
+        android:id="@+id/txtNombre"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="19dp"
+        android:text="@string/txtBusqueda"
+        android:textColor="#FFFFFF"
+        android:textSize="30sp" />
+
+    <TextView
+        android:id="@+id/txtCiudad"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/btnCiudad"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/txtInscribirse"
+        android:layout_marginTop="24dp"
+        android:text="@string/txtCiudad"
+        android:textColor="#FFFFFF" />
+
+    <Button
+        android:id="@+id/btnListarProfesores"
+        android:background="#C8C8C8"
+        android:theme="@android:style/Theme.Light"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:text=" Listo! " />
+
+    <Button
+        android:id="@+id/btnIdioma"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/btnProvincia"
+        android:layout_marginTop="35dp"
+        android:layout_toRightOf="@+id/txtNombre"
+        android:theme="@android:style/Theme.Light"
+        android:background="#C8C8C8"
+        android:text="@string/buscar"
+        />
+
+    <Button
+        android:id="@+id/btnSubCategoria"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="#C8C8C8"
+        android:theme="@android:style/Theme.Light"
+        android:layout_alignLeft="@+id/btnIdioma"
+        android:layout_marginTop="35dp"
+        android:layout_below="@+id/btnIdioma"
+        android:text="@string/buscar" />
+
+    <Button
+        android:id="@+id/btnProvincia"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="#C8C8C8"
+        android:layout_alignLeft="@+id/btnIdioma"
+        android:theme="@android:style/Theme.Light"
+        android:layout_below="@+id/btnCiudad"
+        android:layout_marginTop="35dp"
+        android:text="@string/buscar" />
+
+    <TextView
+        android:id="@+id/TextView03"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/txtProvincia"
+        android:layout_below="@+id/btnProvincia"
+        android:layout_alignParentLeft="true"
+        android:textStyle="bold"
+        android:textSize="15dp"
+        android:layout_marginTop="20dp"
+        android:text="@string/txtSeleccionaCategoria"
+        android:textColor="#FFFFFF" />
+
+    <TextView
+        android:id="@+id/txtCategoria"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/btnIdioma"
+        android:layout_alignParentLeft="true"
+        android:layout_alignBottom="@+id/btnIdioma"
+        android:layout_alignLeft="@+id/TextView03"
+        android:text="@string/txtIdioma"
+        android:textColor="#FFFFFF" />
+
+    <TextView
+        android:id="@+id/txtSubCategoria"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/btnSubCategoria"
+        android:layout_alignBottom="@+id/btnSubCategoria"
+        android:layout_alignParentLeft="true"
+        android:layout_alignLeft="@+id/TextView04"
+        android:text="@string/txtSubCategoria"
+        android:textColor="#FFFFFF" />
+
+    <TextView
+        android:id="@+id/TextView04"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/txtCategoria"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/btnIdioma"
+        android:layout_marginTop="16dp"
+        android:textStyle="bold"
+        android:textSize="15dp"
+        android:text="@string/txtSeleccioneSubCategoria"
+        android:textColor="#FFFFFF" />
+
+    <TextView
+        android:id="@+id/txtProvincia"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/btnProvincia"
+        android:layout_alignLeft="@+id/TextView02"
+        android:text="@string/txtProvincia"
+        android:textColor="#FFFFFF" />
+
+    <TextView
+        android:id="@+id/TextView02"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/txtCiudad"
+        android:layout_alignTop="@+id/btnProvincia"
+        android:textStyle="bold"
+        android:textSize="15dp"
+        android:text="@string/txtSeleccionaProvincia"
+        android:textColor="#FFFFFF" />
+
+    <TextView
+        android:id="@+id/txtInscribirse"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/txtCiudad"
+        android:layout_below="@+id/txtNombre"
+        android:layout_marginTop="35dp"
+        android:textStyle="bold"
+        android:textSize="15dp"
+        android:text="@string/txtSeleccioneCiudad"
+        android:textColor="#FFFFFF" />
+
+    <Button
+        android:id="@+id/btnCiudad"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/btnProvincia"
+        android:layout_below="@+id/txtInscribirse"
+        android:background="#C8C8C8"
+        android:text="@string/buscar"
+        android:theme="@android:style/Theme.Light" />
+
+</RelativeLayout>
+

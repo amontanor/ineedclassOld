@@ -1,0 +1,39 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:weightSum="4"
+    android:orientation="vertical" >
+
+    <dotidapp.ineedclass.componenteSeleccion
+        android:id="@+id/componente1"
+        android:layout_width="fill_parent"
+        android:layout_height="0px"
+        android:layout_weight="1"
+        android:weightSum="4"
+        android:layout_margin="2dip" />
+
+    <dotidapp.ineedclass.componenteSeleccion
+        android:id="@+id/componente2"
+        android:layout_width="fill_parent"
+        android:layout_height="0px"
+       android:layout_weight="1"
+       android:weightSum="4"
+        android:layout_margin="2dip" />
+
+    <dotidapp.ineedclass.componenteSeleccion
+        android:id="@+id/componente3"
+        android:layout_width="fill_parent"
+         android:layout_height="0px"
+       android:layout_weight="1"
+       android:weightSum="4"
+        android:layout_margin="2dip" />
+
+    <dotidapp.ineedclass.componenteSeleccion
+        android:id="@+id/componente4"
+        android:layout_width="fill_parent"
+        android:layout_height="0px"
+        android:layout_weight="1"
+        android:weightSum="4"
+        android:layout_margin="2dip" />
+
+</LinearLayout>
